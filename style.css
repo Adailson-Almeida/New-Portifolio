@@ -82,7 +82,6 @@ body * {
   left: 0;
   transform: translateY(-50%);
   top: 50%;
-  
 }
 
 #switch span {
@@ -132,7 +131,6 @@ ul li a:hover {
   padding: 24px 0;
   font-size: 24px;
   justify-content: center;
-  
 }
 #social-links a {
   display: flex;
@@ -150,4 +148,16 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+/* media queries*/
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
